@@ -2,6 +2,8 @@
   box-sizing: border-box
   font-family: 'Roboto', sans-serif
   color: #444645
+body
+  margin: 0
 
 #contact_form
   display: flex
@@ -174,3 +176,38 @@
 
 .no_scroll
   overflow: hidden
+
+.header
+  height: 140px
+  padding-left: 20px
+  display: flex
+  align-items: center
+  background-color: #001529
+
+  & h1
+    color: #fff
+    font-size: 24px
+
+.footer
+  background-color: #001529
+  height: 70px
+  display: flex
+  justify-content: center
+  align-items: center
+  color: white
+  margin-top: 50px
+
+  &-links a:hover
+    color: #1890ff
+
+.footer-item a
+  color: #1677ff
+  text-decoration: none
+  background-color: transparent
+  outline: none
+  cursor: pointer
+  transition: color 0.3s
+
+.footer_links
+  display: flex
+  column-gap: 16px
